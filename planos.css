@@ -1,0 +1,206 @@
+.Planos{
+     background-image: linear-gradient(#a2af9f00,  rgba(227, 255, 225, 0.438), rgba(210, 253, 209, 0.795) ) ;
+}
+.Planos .titulos-planos h1{
+    font-family: "MuseoModerno", sans-serif;
+    color: #FFAF27;
+    text-shadow: 2px -0.2px 8px rgba(202, 205, 197, 0.541);
+
+    font-size: 100px;
+    text-align: center;
+    padding-top: 5%;
+
+    position: relative;
+}
+
+.Planos .titulos-planos h2{
+    font-size: 40px;
+    font-family: "League Spartan", sans-serif;
+    color: #9CBC3D;
+    text-shadow: 2px -0.2px 8px rgba(202, 205, 197, 0.541);
+
+    text-align: center;
+
+    position: relative;
+    margin-bottom: 6%;
+}
+
+.grid-plano{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 70%;
+    gap: 100px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+.Planos .plano1{
+    background-color: #fa7a74dc;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    max-height: 500px;
+    border-radius: 65px;
+    padding-bottom: 0;
+    transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 5px 8px 3px #24593e4a;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+
+.Planos .plano1 img{
+    padding-top: 15px;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    
+    border-radius: 0px 0px 63px 63px;
+    -webkit-border-radius: 0px 0px 63px 63px;
+    -moz-border-radius: 0px 0px 63px 63px;
+    transition: 1s;
+    box-shadow: (0px 5px 7px #878d70a8);
+}
+
+.Planos .plano2{
+    background-color: rgba(174, 224, 134, 0.856);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    max-height: 500px;
+    border-radius: 65px;
+    padding-bottom: 0;
+    transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 5px 8px 3px #24593e4a;
+}
+
+.Planos .plano2 img{
+    padding-top: 15px;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    max-height: 250px;
+    border-radius: 0px 0px 63px 63px;
+    -webkit-border-radius: 0px 0px 63px 63px;
+    -moz-border-radius: 0px 0px 63px 63px;
+    transition: 1s;
+    box-shadow: (0px 5px 7px #878d70a8);
+}
+
+.Planos .plano3{
+    background-color: #ffcf7ccb;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 22px;
+    max-height: 500px;
+    border-radius: 65px;
+    padding-bottom: 0;
+    transition: 0.7s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 5px 8px 3px #24593e4a;
+}
+
+.Planos .plano3 img{
+    padding-top: 15px;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    max-height: 257px;
+    border-radius: 0px 0px 63px 63px;
+    -webkit-border-radius: 0px 0px 63px 63px;
+    -moz-border-radius: 0px 0px 63px 63px;
+    transition: 1s;
+    box-shadow: (0px 5px 7px #878d70a8);
+}
+
+
+.Planos h2{
+    color:#3B435F;
+    font-size: 43px;
+    padding: 30px;
+    padding-bottom: 0;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+
+.Planos p{
+    padding: 40px 15px;
+    color: #3B435F;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Planos a{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration: none;
+    filter: drop-shadow(2px 6px 5px #555847a4);
+}
+.Planos .plano1:hover{
+    transform: scale(1.1) translateY(-40px);
+    box-shadow: 0px 5px 8px 2px #24593e4a;
+}
+
+.Planos .plano2:hover{
+    transform: scale(1.1) translateY(-40px);
+    box-shadow: 0px 5px 8px 2px #24593e4a;
+}
+
+
+.Planos .plano3:hover{
+    transform: scale(1.1) translateY(-40px);
+    box-shadow: 0px 5px 8px 2px #24593e4a;
+}
+.button-2{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.button-2 img{
+    margin: 0 auto;
+    height: 110px;
+    width: 140px;
+    margin-bottom: 100px;
+}
+
+.button-2 h2{
+    filter: drop-shadow(2px 3px 3px #55584750);
+    color: rgb(110, 185, 24);
+    font-size: 90px;
+    font-family: "League Spartan", sans-serif;
+    margin-top:  100px;
+    margin-bottom: 40px;
+}
+
+.button-2 button{
+    background-color: #C14A2C;
+    height: 85px;
+    width: 360px;
+    border-radius: 45px;
+    border: transparent;
+    font-family: "MuseoModerno", sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    box-shadow: 3px 0.5px 10px rgba(253, 32, 32, 0.418);
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+
+.button-2 button:hover{
+color: #ffffff;
+background-color: #a61717;
+filter: drop-shadow(0px 6px 6px #878d70a8);
+transform: translateY(-5px) scale(1.01);
+border-radius: 38px;
+}
